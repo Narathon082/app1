@@ -1,11 +1,11 @@
 //import logo from './logo.svg';
 import './App.css';
-import React from 'react';
-import { Header,Content,Footer } from './func-components';
-import Button from './class-components';
+import React from 'react'
+import { Calculator2 } from './calculator'
+
 
 function App() {
-  return  <Button/>
+  return  <Calculator2/>
 }
 
 export default App;
