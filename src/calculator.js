@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
  
 export function Calculator2(){
     const n1 =20

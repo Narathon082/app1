@@ -2,10 +2,11 @@
 import './App.css';
 import React from 'react'
 import { Calculator2 } from './calculator'
-
+import { EventData } from './event-data'
 
 function App() {
-  return  <Calculator2/>
+  return <EventData/>
+
 }
 
 export default App;
