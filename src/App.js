@@ -1,11 +1,10 @@
 //import logo from './logo.svg';
 import './App.css';
 import React from 'react'
-import { Calculator2 } from './calculator'
-import { EventData } from './event-data'
+import RefsArray from './refs-array'
 
 function App() {
-  return <EventData/>
+  return <RefsArray/>
 
 }
 
