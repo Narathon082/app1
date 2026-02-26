@@ -34,7 +34,7 @@ export default function FormSelectFile() {
         <select id="maxNumFiles" className="form-select form-select-sm" ref={selectMaxNumFiles}>
         {
             maxNumfiles.map(i => {
-                return <option key={i} value={i}>{i}</option>
+                return <option value={i}>{i}</option>
          })
         }                  
         </select>
@@ -45,7 +45,7 @@ export default function FormSelectFile() {
         <select id="maxSize" className="form-select form-select-sm" ref={selectMaxSize}>
         {
             maxSizes.map(i => {
-                return <option key={i} value={i}>{i}</option>
+                return <option value={i}>{i}</option>
          })
         }                  
         </select>
